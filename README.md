@@ -7,14 +7,14 @@ Trace/breakpoint trap (core dumped)
 
 #### Fix the problem:
 ```bash
-$ cd /tmp \
-$ wget http://launchpadlibrarian.net/438303557/libpango-1.0-0_1.42.4-7_amd64.deb \
-$ wget http://launchpadlibrarian.net/438303558/libpangocairo-1.0-0_1.42.4-7_amd64.deb \
-$ wget http://launchpadlibrarian.net/438303559/libpangoft2-1.0-0_1.42.4-7_amd64.deb \
-$ cd /opt/PomoDoneApp\
-$ sudo dpkg -x /tmp/libpango-1.0-0_1.42.4-7_amd64.deb . \
-$ sudo dpkg -x /tmp/libpangocairo-1.0-0_1.42.4-7_amd64.deb . \
-$ sudo dpkg -x /tmp/libpangoft2-1.0-0_1.42.4-7_amd64.deb . \
+$ cd /tmp
+$ wget http://launchpadlibrarian.net/438303557/libpango-1.0-0_1.42.4-7_amd64.deb
+$ wget http://launchpadlibrarian.net/438303558/libpangocairo-1.0-0_1.42.4-7_amd64.deb
+$ wget http://launchpadlibrarian.net/438303559/libpangoft2-1.0-0_1.42.4-7_amd64.deb
+$ cd /opt/PomoDoneApp
+$ sudo dpkg -x /tmp/libpango-1.0-0_1.42.4-7_amd64.deb .
+$ sudo dpkg -x /tmp/libpangocairo-1.0-0_1.42.4-7_amd64.deb .
+$ sudo dpkg -x /tmp/libpangoft2-1.0-0_1.42.4-7_amd64.deb .
 ```
 
 ##### To run the app:
