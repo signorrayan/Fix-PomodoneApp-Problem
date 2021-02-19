@@ -40,7 +40,7 @@ Exec= LD_LIBRARY_PATH=/opt/PomoDoneApp/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH
 Icon=
 Terminal=false
 Type=Application
-StartupNotify=truen
+StartupNotify=true
 ```
 
 ```bash
